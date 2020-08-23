@@ -1,10 +1,9 @@
 #!/usr/bin/env php
 <?php
 
-use \AYSorter\Sorter;
-use \AYSorter\AscSorter;
-use \AYSorter\DescSorter;
-use \AYSorter\NullSorter;
+declare( strict_types=1 );
+
+use \AYSorter\{Sorter, AscSorter, DescSorter, NullSorter};
 
 require_once __DIR__ . '/../vendor/autoload.php';
 

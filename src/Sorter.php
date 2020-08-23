@@ -1,5 +1,7 @@
 <?php
 
+declare( strict_types=1 );
+
 namespace AYSorter;
 
 class Sorter {
@@ -14,7 +16,7 @@ class Sorter {
 		$this->sorter = $sorter;
 	}
 
-	public function sort( $data ): array {
+	public function sort( array $data ): array {
 		return $this->sorter->sort( $data );
 	}
 
