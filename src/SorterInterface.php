@@ -5,14 +5,14 @@ declare(strict_types=1);
 namespace AYSorter;
 
 /**
- * Interface SorterInterface
+ * Describes a sorter instance.
  * @package AYSorter
  */
 interface SorterInterface
 {
 
     /**
-     * Main method to sort the array.
+     * Describes sort method.
      *
      * @param array $data
      *

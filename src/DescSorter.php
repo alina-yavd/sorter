@@ -5,14 +5,14 @@ declare(strict_types=1);
 namespace AYSorter;
 
 /**
- * Class DescSorter
+ * Sorter strategy to sort the array in descending order.
  * @package AYSorter
  */
-class DescSorter implements SorterInterface
+final class DescSorter implements SorterInterface
 {
 
     /**
-     * Main method to sort the array in descending order.
+     * Sorts the array in descending order.
      *
      * @param array $data
      *

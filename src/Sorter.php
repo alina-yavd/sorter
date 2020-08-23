@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace AYSorter;
 
 /**
- * Class Sorter
+ * Sorter class that sorts the array using the selected strategy.
  * @package AYSorter
  */
-class Sorter
+final class Sorter
 {
 
     /**
@@ -27,7 +27,7 @@ class Sorter
     }
 
     /**
-     * Setter for SorterInterface.
+     * Sets a sorter instance on the object.
      *
      * @param SorterInterface $sorter
      */
@@ -37,7 +37,7 @@ class Sorter
     }
 
     /**
-     * Main method to sort the array.
+     * Sorts the array using the selected strategy.
      *
      * @param array $data
      *
