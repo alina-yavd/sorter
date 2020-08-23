@@ -1,10 +1,7 @@
 {
   "name": "alina-yavd/sorter",
   "description": "PHP sorting library",
-  "keywords": [
-    "library"
-  ],
-  "type": "project",
+  "type": "library",
   "license": "MIT",
   "minimum-stability": "stable",
   "require": {

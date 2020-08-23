@@ -1,6 +1,10 @@
 Sorter Library Change Log
 ===================
 
+2.0.1 August 24, 2020
+-------------------
+* Fix: Change package type to library
+
 2.0.0 August 24, 2020
 -------------------
 * Enh: Make sorter classes final
